@@ -12,7 +12,6 @@
 #include "mouse.cc"
 #include "signal.cc"
 #include "pacman.cc"
-#include "fish.cc"
 #include "Prototypes/LFCluster.cc"
 #include "Prototypes/LFSort.cc"
 #include "Prototypes2/LFSort.cc"
@@ -28,7 +27,6 @@ BEGIN_SIMULATION_TABLE
 	ADD_SIMULATION("Braitenberg", BraitenbergSimulation)
 	ADD_SIMULATION("Honey Bees", BeeSimulation)
 	ADD_SIMULATION("Shrews", ShrewSimulation)
-	ADD_SIMULATION("Fish", FishSimulation)
 	ADD_SIMULATION("Mice", MouseSimulation)
 	ADD_SIMULATION("Chase", ChaseSimulation)
 	//ADD_SIMULATION("Signal", SignalSimulation)
